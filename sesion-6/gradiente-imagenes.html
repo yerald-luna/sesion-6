@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		img{
+			border-radius: 50%;
+		}
+		#borde-imagen{
+			border :10px solid transparent;
+			padding: 15px;
+			padding-left: 15px; 
+			border-image: url(border.png) 35 round;
+			width: 300px;
+		}
+		#mi-fondo{
+			background-image: url(img_flwr.gif),url(paper.gif); 
+			background-position: right bottom,left top;
+			background-repeat: no-repeat,repeat;
+			padding: 15px 200px 15px 15px;
+			background-size: 100PX 100PX;
+		}
+		#gradiente1{
+			width: 500px;
+			height: 200px;
+			background:blue;
+			background:linear-gradient(blue,red,white,yellow,green);
+		}
+		#gradiente2{
+			width: 500px;
+			height: 200px;
+			background:blue;
+			background:linear-gradient(to left,blue,black,green,red,pink,black,yellow);
+		}
+		#gradiente3{
+			width: 500px;
+			height: 200px;
+			background:blue;
+			background: linear-gradient(to bottom right,black,green,red,pink,black,yellow);
+		}
+		#gradiente4{
+			width: 500px;
+			height: 200px;
+			background:blue;
+			background:repeating-radial-gradient(circle ,white 5%,blue 15%,black 60%);
+
+		}
+
+	</style>
+</head>
+<body>
+	<img src="bird.jpg">
+	<br>
+	<div id="borde-imagen">esta division usa como borde una imagen</div>
+	<br>
+	<div id="mi-fondo">
+		<h1>bienvenidos</h1>
+		<p>el fondo de esta division esta personalizado con imagenes posiciones, las imagenes se repiten cada 100px</p>
+		<p>el fondo de esta division esta personalizado con imagenes posiciones, las imagenes se repiten cada 100px</p>
+		<p>el fondo de esta division esta personalizado con imagenes posiciones, las imagenes se repiten cada 100px</p>
+		<p>el fondo de esta division esta personalizado con imagenes posiciones, las imagenes se repiten cada 100px</p>
+		<p>el fondo de esta division esta personalizado con imagenes posiciones, las imagenes se repiten cada 100px</p>
+		<p>el fondo de esta division esta personalizado con imagenes posiciones, las imagenes se repiten cada 100px</p>
+		<p>el fondo de esta division esta personalizado con imagenes posiciones, las imagenes se repiten cada 100px</p>
+
+	</div>
+	<br>
+	<div id="gradiente1"></div>
+	<br>
+	<div id="gradiente2"></div>
+	<br>
+	<div id="gradiente3"></div>
+	<br>
+	<div id="gradiente4"></div>
+</body>
+</html>
